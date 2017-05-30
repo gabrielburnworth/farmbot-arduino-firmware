@@ -8,8 +8,8 @@
 #define E_STEP_PIN 15 // X2_STEP_PIN
 #define E_DIR_PIN 30 // X2_DIR_PIN
 #define E_ENABLE_PIN 14 // X2_ENABLE_PIN
-#define X_MIN_PIN 15 // ANALOG NUMBERING
-#define X_MAX_PIN 14 // ANALOG NUMBERING
+#define X_MIN_PIN 69
+#define X_MAX_PIN 68
 #define X_ENCDR_A 16
 #define X_ENCDR_B 17
 #define X_ENCDR_A_Q -1 // N/A
@@ -19,8 +19,8 @@
 #define Y_STEP_PIN 32
 #define Y_DIR_PIN 33
 #define Y_ENABLE_PIN 31
-#define Y_MIN_PIN 13 // ANALOG NUMBERING
-#define Y_MAX_PIN 12 // ANALOG NUMBERING
+#define Y_MIN_PIN 67
+#define Y_MAX_PIN 66
 #define Y_ENCDR_A 23
 #define Y_ENCDR_B 24
 #define Y_ENCDR_A_Q -1 // N/A
@@ -30,16 +30,16 @@
 #define Z_STEP_PIN 35
 #define Z_DIR_PIN 36
 #define Z_ENABLE_PIN 34
-#define Z_MIN_PIN 11 // ANALOG NUMBERING
-#define Z_MAX_PIN 10 // ANALOG NUMBERING
+#define Z_MIN_PIN 65
+#define Z_MAX_PIN 64
 #define Z_ENCDR_A 29
 #define Z_ENCDR_B 28
 #define Z_ENCDR_A_Q -1 // N/A
 #define Z_ENCDR_B_Q -1 // N/A
 
 // UTM
-#define UTM_C 9 // ANALOG NUMBERING - TOOL VERIFICATION
-#define UTM_D 5 // ANALOG NUMBERING - SOIL SENSOR
+#define UTM_C 63 // TOOL VERIFICATION
+#define UTM_D 59 // SOIL SENSOR
 #define UTM_E -1
 #define UTM_F -1
 #define UTM_G -1
