@@ -141,6 +141,8 @@
   #define X_MAX_PIN 68
   #define X_ENCDR_A 16
   #define X_ENCDR_B 17
+  #define X_ENCDR_A_Q -1 // N/A
+  #define X_ENCDR_B_Q -1 // N/A
 
     // Y-AXIS
   #define Y_STEP_PIN 32
@@ -150,6 +152,8 @@
   #define Y_MAX_PIN 66
   #define Y_ENCDR_A 23
   #define Y_ENCDR_B 24
+  #define Y_ENCDR_A_Q -1 // N/A
+  #define Y_ENCDR_B_Q -1 // N/A
 
     // Z-AXIS
   #define Z_STEP_PIN 35
@@ -159,6 +163,8 @@
   #define Z_MAX_PIN 64
   #define Z_ENCDR_A 29
   #define Z_ENCDR_B 28
+  #define Z_ENCDR_A_Q -1 // N/A
+  #define Z_ENCDR_B_Q -1 // N/A
 
     // UTM
   #define UTM_C 63 // TOOL VERIFICATION
