@@ -12,8 +12,6 @@
 #define X_MAX_PIN 68
 #define X_ENCDR_A 16
 #define X_ENCDR_B 17
-#define X_ENCDR_A_Q -1 // N/A
-#define X_ENCDR_B_Q -1 // N/A
 
 // Y-AXIS
 #define Y_STEP_PIN 32
@@ -23,8 +21,6 @@
 #define Y_MAX_PIN 66
 #define Y_ENCDR_A 23
 #define Y_ENCDR_B 24
-#define Y_ENCDR_A_Q -1 // N/A
-#define Y_ENCDR_B_Q -1 // N/A
 
 // Z-AXIS
 #define Z_STEP_PIN 35
@@ -34,8 +30,6 @@
 #define Z_MAX_PIN 64
 #define Z_ENCDR_A 29
 #define Z_ENCDR_B 28
-#define Z_ENCDR_A_Q -1 // N/A
-#define Z_ENCDR_B_Q -1 // N/A
 
 // UTM
 #define UTM_C 63 // TOOL VERIFICATION
@@ -68,3 +62,15 @@
 #define SERVO_1_PIN 5
 #define SERVO_2_PIN 6
 #define SERVO_3_PIN 7
+
+#define AUX1_00 0
+#define AUX1_01 1
+#define AUX1_57 57
+#define AUX1_58 58
+#define AUX3_49 49
+#define AUX3_50 50
+#define AUX3_51 51
+#define AUX4_43 43
+#define AUX4_45 45
+#define AUX4_47 47
+#define AUX4_32 32
